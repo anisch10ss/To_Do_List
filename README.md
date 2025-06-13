@@ -59,3 +59,53 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# ✅ To-Do List App
+
+A simple and efficient To-Do List application built with **Laravel** for the backend and **JavaScript** for a dynamic and interactive frontend. It helps users manage tasks with features like adding, editing, deleting, and marking tasks as complete.
+
+---
+
+## 🚀 Features
+
+- 📝 Add new tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- ✏️ Edit task descriptions
+- 🔁 Real-time UI updates using JavaScript
+- 💾 Data persistence with Laravel & MySQL
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+- **Laravel** 10+
+- **PHP** 8+
+- **MySQL** (or any other supported DB)
+
+### Frontend
+- **JavaScript**
+- **Blade Templates**
+- **Bootstrap** (optional for styling)
+- **AJAX** for asynchronous operations
+
+---
+
+## 📂 Project Structure
+
+```bash
+todo-list-app/
+├── app/
+├── public/
+├── resources/
+│   └── views/
+│       └── todos.blade.php
+├── routes/
+│   └── web.php
+├── database/
+│   └── migrations/
+├── .env
+├── composer.json
+└── README.md
+
